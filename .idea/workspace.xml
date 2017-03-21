@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27b187e1-d455-4a4c-b730-8e0a416b1a5d" name="Default" comment="" />
+    <ignored path="AMS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/jdbc.properties" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489455307489" ignored="false" />
+    <file path="/employeeAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489455444612" ignored="false" />
+    <file path="/index.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489972515159" ignored="false" />
+    <file path="/AdminAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489827918177" ignored="false" />
+    <file path="/Admin.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489472239693" ignored="false" />
+    <file path="/AdminService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489474770692" ignored="false" />
+    <file path="/CostomerService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489457618507" ignored="false" />
+    <file path="/EmployeeService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489718121504" ignored="false" />
+    <file path="/AdminDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489475138146" ignored="false" />
+    <file path="/CostomerDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489457634809" ignored="false" />
+    <file path="/EmployeeDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489718684627" ignored="false" />
+    <file path="/AdminServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489502461479" ignored="false" />
+    <file path="/AdminDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489502556500" ignored="false" />
+    <file path="/Admin.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489472409866" ignored="false" />
+    <file path="/struts.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489900817690" ignored="false" />
+    <file path="/applicationContext.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489900033050" ignored="false" />
+    <file path="/login.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489716760183" ignored="false" />
+    <file path="$PROJECT_DIR$/web/admin/styles/listEmployee.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489460376820" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170313/ssh_test/src/dao/impl/EmployeeDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489463554527" ignored="false" />
+    <file path="/EmployeeDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489926441732" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170313/ssh_test/web/frame/listEmployee.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489473728482" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170313/ssh_test/src/service/EmployeeService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489474534256" ignored="false" />
+    <file path="/fragment.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489804892851" ignored="false" />
+    <file path="/Employee.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489577963766" ignored="false" />
+    <file path="/Employee.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489578013206" ignored="false" />
+    <file path="/listEmployee.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489721142476" ignored="false" />
+    <file path="/EmployeeAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489914603524" ignored="false" />
+    <file path="/EmployeeServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489720741157" ignored="false" />
+    <file path="/addEmployee.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489940769827" ignored="false" />
+    <file path="/CustomerAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489887959157" ignored="false" />
+    <file path="/CustomerServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489555432064" ignored="false" />
+    <file path="/CustomerDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489555465801" ignored="false" />
+    <file path="/editEmployee.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489579765316" ignored="false" />
+    <file path="/userlist.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489562586908" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170309/studentInfo/web/userlist.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489563076129" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170309/studentInfo/src/com/hwadee/studentInfo/service/DetailsController.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489562975360" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170309/studentInfo/src/com/hwadee/studentInfo/service/ModifyController.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489563102031" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170309/studentInfo/web/modify.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489563554585" ignored="false" />
+    <file path="/modify.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489563553444" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170309/studentInfo/web/details.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489563651197" ignored="false" />
+    <file path="/a.dummy" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489891635529" ignored="false" />
+    <file path="/details.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489577098820" ignored="false" />
+    <file path="/queryBusiness.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489938596983" ignored="false" />
+    <file path="/bootstrap.css" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489631870735" ignored="false" />
+    <file path="/BusinessAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489914373383" ignored="false" />
+    <file path="/BusinessServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489938270239" ignored="false" />
+    <file path="/BusinessService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489912977986" ignored="false" />
+    <file path="/BusinessDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489918569958" ignored="false" />
+    <file path="/Business.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489909036469" ignored="false" />
+    <file path="/Business.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489669101605" ignored="false" />
+    <file path="/listBusiness.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489926646879" ignored="false" />
+    <file path="/BusinessInfo.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489907918306" ignored="false" />
+    <file path="/BusinessUtil.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489906495795" ignored="false" />
+    <file path="/Customer.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489645531403" ignored="false" />
+    <file path="/VehicleAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489900584546" ignored="false" />
+    <file path="/VehicleDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489802823465" ignored="false" />
+    <file path="/VehicleServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489799504521" ignored="false" />
+    <file path="/VehicleService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489647400997" ignored="false" />
+    <file path="/VehicleDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489799190854" ignored="false" />
+    <file path="/Vehicle.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489715268791" ignored="false" />
+    <file path="/Vehicle.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489715316368" ignored="false" />
+    <file path="/CompanyAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489899558048" ignored="false" />
+    <file path="/CompanyServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489660927756" ignored="false" />
+    <file path="/CompanyDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489660966484" ignored="false" />
+    <file path="/CompanyService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489886323913" ignored="false" />
+    <file path="/CompanyDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489660931243" ignored="false" />
+    <file path="/Company.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489668400799" ignored="false" />
+    <file path="/Company.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489666410670" ignored="false" />
+    <file path="/IdCardAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489892971256" ignored="false" />
+    <file path="/IdCardService.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489840505060" ignored="false" />
+    <file path="/IdCardServiceImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489840535228" ignored="false" />
+    <file path="/IdCardDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489840544744" ignored="false" />
+    <file path="/IdCardDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489895401101" ignored="false" />
+    <file path="/backstage.css" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489714131283" ignored="false" />
+    <file path="/BusinessDao.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489913072966" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170317/fileOperation/web/WEB-INF/web.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489747772606" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170317/fileOperation/src/com/hwadee/file/FileController.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489750075798" ignored="false" />
+    <file path="/FileController.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489750049119" ignored="false" />
+    <file path="/web.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489747772606" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170317/fileOperation/web/index.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489747915051" ignored="false" />
+    <file path="$PROJECT_DIR$/../20170317/fileOperation/src/com/hwadee/file/Test.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489748270320" ignored="false" />
+    <file path="/Test.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489748248318" ignored="false" />
+    <file path="/listVehicleBusiness.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489910825840" ignored="false" />
+    <file path="/GenerateRandom.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489761035921" ignored="false" />
+    <file path="/VehicleUtil.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489800141055" ignored="false" />
+    <file path="/SendMailDaoImp.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489837279449" ignored="false" />
+    <file path="/testMail.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489817640954" ignored="false" />
+    <file path="/MailSend.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489817040517" ignored="false" />
+    <file path="/MailUtil.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489838527152" ignored="false" />
+    <file path="/listChoosedVehicle.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489818742398" ignored="false" />
+    <file path="/cardApply.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489940944074" ignored="false" />
+    <file path="/replySuggestion.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489850287019" ignored="false" />
+    <file path="/SuggestionAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489850828710" ignored="false" />
+    <file path="/IdCard.hbm.xml" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489891212017" ignored="false" />
+    <file path="/businessStatus.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489895642914" ignored="false" />
+    <file path="/companyApply.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489900109358" ignored="false" />
+    <file path="/AnnounceAction.java" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489903485416" ignored="false" />
+    <file path="/cardDetail.jsp" changelist="27b187e1-d455-4a4c-b730-8e0a416b1a5d" time="1489918075564" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="cardDetail.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/employee/cardDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="56" selection-start="963" selection-end="969" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdCardAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/action/IdCardAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="46" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/action/CustomerAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="173" column="42" selection-start="6704" selection-end="6704" vertical-scroll-proportion="-0.38910505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/action/AdminAction.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/daoImp/EmployeeDaoImp.java" />
+        <option value="$PROJECT_DIR$/web/admin/listBusiness.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/daoImp/BusinessDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/utils/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/serviceImp/EmployeeServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/serviceImp/BusinessServiceImp.java" />
+        <option value="$PROJECT_DIR$/web/admin/queryBusiness.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/addEmployee.jsp" />
+        <option value="$PROJECT_DIR$/web/customer/cardApply.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/serviceImp/AnnounceServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/serviceImp/SuggestionServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/daoImp/SendMailDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/utils/GenerateRandom.java" />
+        <option value="$PROJECT_DIR$/src/cn/scu/ams/action/IdCardAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mail.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.scu.ams.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_workspace\AMS\web\admin\images" />
+      <recent name="F:\java_workspace\AMS\web" />
+      <recent name="F:\java_workspace\AMS\src\cn\scu\ams\domain" />
+      <recent name="F:\java_workspace\AMS\src\cn\scu\ams\action" />
+      <recent name="F:\java_workspace\AMS\src\cn\scu\ams\service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 6.0">
+    <configuration default="false" name="VehicleUtil" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.scu.ams.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.scu.ams.utils.VehicleUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AMS" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testMail" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.scu.ams.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.scu.ams.utils.testMail" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AMS" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 6.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <deployment>
+        <artifact name="AMS:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_6_0_AMS" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8207" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AMS:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6.0" />
+      <item index="1" class="java.lang.String" itemvalue="Application.VehicleUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Application.testMail" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.testMail" />
+        <item index="1" class="java.lang.String" itemvalue="Application.VehicleUtil" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27b187e1-d455-4a4c-b730-8e0a416b1a5d" name="Default" comment="" />
+      <created>1489452850202</created>
+      <updated>1489452850202</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32413793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18920973" sideWeight="0.3034483" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41551724" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931036" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2256839" sideWeight="0.9413793" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05862069" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7362069" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/customer/cardApply.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="42" selection-start="8009" selection-end="8009" vertical-scroll-proportion="0.0501002" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/addEmployee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="145" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.501002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/BusinessServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="16" selection-start="3469" selection-end="3518" vertical-scroll-proportion="1.0912409" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/queryBusiness.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="50" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.28793773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="33" selection-start="316" selection-end="890" vertical-scroll-proportion="2.5882354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/employee/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="37" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.9411764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/AnnounceServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/SuggestionServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="28" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/action/BusinessAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="65" selection-start="4608" selection-end="4626" vertical-scroll-proportion="0.43069306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/BusinessDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="74" selection-start="5009" selection-end="5009" vertical-scroll-proportion="0.53956836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/utils/GenerateRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="808" selection-end="812" vertical-scroll-proportion="0.8408072" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/SendMailDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="44" selection-start="5991" selection-end="5991" vertical-scroll-proportion="0.37170264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload/20170320093551.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/employee/cardDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="56" selection-start="963" selection-end="969" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/action/IdCardAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="46" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/scu/ams/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="42" selection-start="6704" selection-end="6704" vertical-scroll-proportion="-0.38910505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>AMS:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

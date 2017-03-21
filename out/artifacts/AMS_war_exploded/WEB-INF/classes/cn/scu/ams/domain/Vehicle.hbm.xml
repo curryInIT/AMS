@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.scu.ams.domain.Vehicle" table="vehicle">
+        <id name="vehicleId" column="vehicleId">
+            <generator class="native"></generator>
+        </id>
+        <property name="email" column="email" length="20"></property>
+        <property name="customerName" column="customerName" length="20"></property>
+        <property name="phone" column="phone"></property>
+        <property name="applyTime" column="applyTime" length="20"></property>
+        <property name="idCard" column="idCard" length="20"></property>
+        <property name="existStatus" column="existStatus"></property>
+        <property name="customerId" column="customerId"></property>
+    </class>
+</hibernate-mapping>

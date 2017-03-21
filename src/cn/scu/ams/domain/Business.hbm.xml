@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.scu.ams.domain.Business" table="business">
+        <id name="businessId" column="businessId">
+            <generator class="native"></generator>
+        </id>
+        <property name="customerId" column="customerId"></property>
+        <property name="businessType" column="businessType"></property>
+        <property name="status" column="status"></property>
+        <property name="passStatus" column="passStatus"></property>
+        <property name="employeeId" column="employeeId"></property>
+        <property name="companyId" column="companyId"></property>
+        <property name="vehicleId" column="vehicleId"></property>
+        <property name="idCardId" column="cardId"></property>
+        <property name="applyTime" column="applyTime"></property>
+        <property name="passTime" column="passTime"></property>
+        <property name="existStatus" column="existStatus" length="10"></property>
+    </class>
+</hibernate-mapping>

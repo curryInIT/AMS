@@ -1,0 +1,14 @@
+		
+	div.item img{
+	margin-top:50px;
+    width:100%;
+   	}
+	.carousel-inner img{border-radius:20px;}
+  	div#carousel-example-generic{
+    width:80%;
+    margin:0 auto;
+  	}
+	.carousel-caption{font-family:"Î¢ÈíÑÅºÚ"}
+	.carousel-control{margin-top:230px}
+	.carousel-indicators{margin-top:430px;
+	margin-left:5px}

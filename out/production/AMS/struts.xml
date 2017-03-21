@@ -1,0 +1,109 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+   <package name="ssh" extends="struts-default" namespace="/">
+   		<action name="admin_*" class="adminAction" method="{1}">
+   			<result name="success" type="redirect">/admin/index.jsp</result>
+            <result name="input">/admin/login.jsp</result>
+            <result name="logout">/admin/login.jsp</result>
+            <result name="uploadSuccess">/index.jsp</result>
+   		</action>
+
+       <action name="employee_*" class="employeeAction" method="{1}">
+           <result name="success" type="redirect">/employee/index.jsp</result>
+           <result name="input">/employee/login.jsp</result>
+           <result name="saveSuccess" type="redirectAction">employee_findAll.action</result>
+           <result name="updateSuccess" type="redirectAction">employee_findAll.action</result>
+           <result name="deleteSuccess" type="redirectAction">employee_findAll.action</result>
+           <result name="findAll">/admin/listEmployee.jsp</result>
+           <result name="toEditPage">/admin/editEmployee.jsp</result>
+           <result name="details">/admin/details.jsp</result>
+           <result name="querySuccess">/admin/listEmployee.jsp</result>
+           <result name="th_logout">/employee/login.jsp</result>
+       </action>
+
+       <action name="customer_*" class="customerAction" method="{1}">
+           <result name="wj_gotoindex" >/customer/index.jsp</result>
+           <result name="wj_gotologin">/customer/login.jsp</result>
+           <result name="wj_modify">/customer/modifyInfo.jsp</result>
+           <result name="wj_noexist">/customer/forgetPassword.jsp</result>
+           <result name="wj_gotocode">/customer/testCode.jsp</result>
+       </action>
+
+       <action name="business_*" class="businessAction" method="{1}">
+           <result name="th_findAll">/admin/listBusiness.jsp</result>
+           <result name="th_querySuccess">/admin/queryBusiness.jsp</result>
+           <result name="th_queryFail">/admin/queryBusiness.jsp</result>
+           <result name="th_randSuccess">/index.jsp</result>
+           <result name="th_success2">/employee/listVehicleBusiness.jsp</result>
+           <result name="th_success3">/employee/listChoosedVehicle.jsp</result>
+           <result name="th_index">/employee/listVehicleBusiness.jsp</result>
+            <result name="th_sendMailSuccess">/index.jsp</result>
+           <result name="ypx_success">/employee/listCompanyBusiness.jsp</result>
+           <result name="ypx_success1">/employee/listIdCardBusiness.jsp</result>
+           <result name="ypx_success2">/employee/listVehicleBusiness.jsp</result>
+           <result name="ypx_success3">/employee/listChoosedVehicle.jsp</result>
+           <result name="ypx_index">/index.jsp</result>
+           <result name="ypx_detail">/employee/companyDetail.jsp</result>
+           <result name="ypx_cardDetail">/employee/cardDetail.jsp</result>
+           <result name="ypx_passCom">/employee/listCompanyBusiness.jsp</result>
+           <result name="ypx_unpassCom">/employee/listCompanyBusiness.jsp</result>
+           <result name="ypx_passOff">/employee/listCompanyBusiness.jsp</result>
+           <result name="ypx_unpassOff">/employee/listCompanyBusiness.jsp</result>
+           <result name="ypx_passCard">/employee/listIdCardBusiness.jsp</result>
+           <result name="ypx_unpassCard">/employee/listIdCardBusiness.jsp</result>
+           <result name="ypx_passLoss">/employee/listIdCardBusiness.jsp</result>
+           <result name="ypx_unpassLoss">/employee/listIdCardBusiness.jsp</result>
+           <result name="wj_allBusiness" >/customer/businessStatus.jsp</result>
+
+       </action>
+
+       <action name="vehicle_*" class="vehicleAction" method="{1}">
+           <result name="wj_gotoapply" >/customer/vehicleApply.jsp</result>
+           <result name="wj_vehicle">/customer/vehicleDetail.jsp</result>
+           <result name="wj_cannotapply">/customer/index.jsp</result>
+           <result name="wj_applycommit">/customer/index.jsp</result>
+
+       </action>
+
+       <action name="company_*" class="companyAction" method="{1}">
+           <result name="wj_gotoapply" >/customer/companyApply.jsp</result>
+           <result name="wj_delete">/customer/companyDelete.jsp</result>
+           <result name="wj_company">/customer/companyDetail.jsp</result>
+           <result name="wj_cannotdelete">/customer/index.jsp</result>
+           <result name="wj_cannotapply">/customer/index.jsp</result>
+           <result name="wj_applycommit">/customer/index.jsp</result>
+           <result name="wj_deletecommit">/customer/index.jsp</result>
+       </action>
+
+       <action name="idCard_*" class="idCardAction" method="{1}">
+           <result name="wj_gotoapply" >/customer/cardApply.jsp</result>
+           <result name="wj_abolish">/customer/cardAbolish.jsp</result>
+           <result name="wj_idCard">/customer/idCardDetail.jsp</result>
+           <result name="wj_cannotabolish">/customer/index.jsp</result>
+           <result name="wj_cannotapply">/customer/index.jsp</result>
+           <result name="wj_applycommit">/customer/index.jsp</result>
+       </action>
+
+       <action name="announce_*" class="announceAction" method="{1}">
+           <result name="success">/employee/announce.jsp</result>
+           <result name="input">/employee/announce.jsp</result>
+           <result name="wj_findAll" >/customer/announce.jsp</result>
+           <result name="wj_announceDetail" >/customer/announceDetail.jsp</result>
+       </action>
+
+       <action name="suggestion_*" class="suggestionAction" method="{1}">
+           <result name="success">/employee/listSuggestion.jsp</result>
+           <result name="index">/index.jsp</result>
+           <result name="detail">/employee/suggestionDetail.jsp</result>
+           <result name="reply">/employee/replySuggestion.jsp</result>
+           <result name="input">/index.jsp</result>
+           <result name="reDetail">/employee/replySuggestion.jsp</result>
+           <result name="wj_success" >/customer/suggestion.jsp</result>
+           <result name="wj_findAll" >/customer/suggestion.jsp</result>
+       </action>
+
+
+   </package>
+</struts>

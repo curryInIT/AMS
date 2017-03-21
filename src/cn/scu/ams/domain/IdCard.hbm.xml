@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.scu.ams.domain.IdCard" table="idcard">
+        <id name="cardId" column="cardId">
+            <generator class="native"></generator>
+        </id>
+        <property name="customerId" column="customerId" length="20"></property>
+        <property name="applyName" column="applyName" length="20"></property>
+        <property name="idNumber" column="idNumber" length="20"></property>
+        <property name="sex" column="sex" length="20"></property>
+        <property name="age" column="age" length="20"></property>
+        <property name="race" column="race" length="20"></property>
+        <property name="customerEmail" column="customerEmail" length="20"></property>
+        <property name="customerPhone" column="customerPhone" length="20"></property>
+        <property name="customerAddress" column="customerAddress" length="45"></property>
+        <property name="photoPath" column="photoPath" length="20"></property>
+        <property name="existStatus" column="existStatus"></property>
+
+    </class>
+</hibernate-mapping>

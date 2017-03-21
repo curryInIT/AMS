@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.scu.ams.domain.Customer" table="customer">
+        <id name="customerId" column="customerId">
+            <generator class="native"></generator>
+        </id>
+        <property name="account" column="account" length="20"></property>
+        <property name="password" column="password" length="20"></property>
+        <property name="email" column="email" length="20"></property>
+        <property name="existStatus" column="existStatus" length="20"></property>
+        <property name="passcode" column="passcode" length="20"></property>
+    </class>
+</hibernate-mapping>

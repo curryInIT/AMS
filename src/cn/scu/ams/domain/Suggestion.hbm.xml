@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.scu.ams.domain.Suggestion" table="suggestion">
+        <id name="suggestionId" column="suggestionId">
+            <generator class="native"></generator>
+        </id>
+        <property name="contentType" column="contentType" length="20"></property>
+        <property name="content" column="content" length="200"></property>
+        <property name="pubTime" column="pubTime" length="20"></property>
+        <property name="reTime" column="reTime" length="20"></property>
+        <property name="dealStatus" column="dealStatus" length="11"></property>
+        <property name="feedback" column="feedback" length="200"></property>
+        <property name="employeeId" column="employeeId" length="11"></property>
+        <property name="existStatus" column="existStatus" length="11"></property>
+
+    </class>
+</hibernate-mapping>

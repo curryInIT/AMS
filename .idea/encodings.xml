@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/AdminAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/AnnounceAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/BusinessAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/CompanyAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/CustomerAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/EmployeeAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/IdCardAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/SuggestionAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/action/VehicleAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/common/BusinessInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/AnnounceDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/BusinessDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/CompanyDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/CustomerDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/IdCardDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/SuggestionDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/dao/VehicleDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/AnnounceDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/BusinessDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/CompanyDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/CustomerDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/IdCardDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/SendMailDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/SuggestionDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/daoImp/VehicleDaoImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/domain/Business.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/domain/IdCard.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/domain/Suggestion.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/AnnounceService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/BusinessService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/CompanyService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/CustomerService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/IdCardService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/SuggestionService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/service/VehicleService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/AnnounceServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/BusinessServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/CustomerServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/EmployeeServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/IdCardServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/serviceImp/VehicleServiceImp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/utils/BusinessUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/utils/GenerateRandom.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/utils/MailUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/utils/PageBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/scu/ams/utils/testMail.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
+
